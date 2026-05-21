@@ -58,7 +58,7 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Uygulamayı başlat
-streamlit run app.py
+streamlit run sulama.py
 ```
 
 Tarayıcınızda `http://localhost:8501` adresine gidin.
@@ -69,7 +69,7 @@ Tarayıcınızda `http://localhost:8501` adresine gidin.
 
 ```
 fuzzy-irrigation/
-├── app.py              # Ana Streamlit uygulaması
+├── sulama.py              # Ana Streamlit uygulaması
 ├── requirements.txt    # Python bağımlılıkları
 └── README.md           # Bu dosya
 ```
@@ -135,8 +135,4 @@ x* = Σ(xᵢ · μ(xᵢ)) / Σ(μ(xᵢ))
 
 ---
 
-## 👤 Yazar
 
-**[Adınız Soyadınız]**  
-Bulanık Mantık Dersi — Dönem Projesi  
-Deadline: 21.05.2026
